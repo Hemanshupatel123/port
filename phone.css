@@ -1,0 +1,538 @@
+@media only screen and (max-width:1250px) {
+    .home{
+        height: 400px;
+    }
+    .image{
+        height: 50%;
+        width: 50%;
+    }
+    .info{
+        font-size: 26px;
+    }
+    .content p{
+        font-size: 16px;
+    }
+    .abt a{
+        font-size: 16px;
+    }
+    
+    .title{
+        top: 0px;
+    }
+    .myimg2 img{
+        top: 30px;
+    }
+    .content{
+        top:30PX;
+    }
+    .education{
+        align-items: flex-start;
+    }
+    .heading{
+        font-size: 34px;
+        top: 70px;
+    }
+    .about-edu{
+        font-size: 16px;
+        top: 70px;
+    }
+    .edu-lvl{
+        font-size: 18px;
+    }
+    .edu-name{
+        font-size: 14px;
+    }
+    .box{
+        top: 40px;
+        height: 100px;
+    }
+    .skills{
+        height: 700px;
+    }
+    .cards{
+        top: 70px;
+    }
+    .card{
+        height: 160px;
+        width: 120px;
+    }
+    .javaimg{
+        height: 50px;
+        width: 60px;
+    }
+    .card{
+        font-size: 26px;
+    }
+    .cards span{
+        transform: rotateY(calc(var(--i)*45deg))translateZ(350px);
+    }
+    .contact{
+        height: 400px;
+    }
+    .contact-img{
+        top: 40px;
+        max-width: 30%;
+        height: 250px;
+        width: 250px;
+        left: 150px;
+    }
+    .form{
+        top: 0px;
+        width: 40%;        
+    }
+    .in-form{
+        height: 18px;
+        font-size: 16px;
+        padding-top: 4px;
+        margin-top: 20px;
+    }
+    .in-form i{
+        font-size: 18px;
+        padding-top: 8px;
+        left: 20px;
+    }
+    input{
+        height: 30px;
+    }
+    textarea{
+        height: 100px;
+    }
+    .submit-btn{
+        top: 70px;
+        height: 30px;
+    }
+    .any{
+        margin-bottom: 5px;
+    }
+    .portion{
+        font-size: 11px;
+    }
+    .portion a{
+        font-size: 11px;
+    }
+   .text-footer{
+    font-size: 15px;
+    padding: 8px 0px;
+   }
+   .text-center{
+    top: 0px;
+   }
+}
+
+@media only screen and (max-width:900px) {
+    .navbar{
+        height: 60px;
+    }
+    .navbar a{
+        font-size: 18px;
+        left: 0px;
+        margin: 0px 10px;  
+    }
+    .logo img{
+        font-size: 30px;
+        height: 40px;
+        left: 20px;
+        top: 10px;
+    }
+    .home{
+        height: 350px;
+    }
+   
+    .image{
+        top: 120px;
+        height: 40%;
+        width: 45%;
+    }
+    .about{
+        height: 480px;
+    }
+    .info{
+        bottom: 20px;
+        font-size: 18px;
+    }
+    .content p{
+        font-size: 14px;
+    }
+    .content{
+        font-size: 16px;
+    }
+    .abt{
+        padding: 6px;
+    }
+    .abt a{
+        font-size: 14px;
+    }
+    
+    .title{
+        top: 0px;
+    }
+    .hemanshu{
+        font-size: 22px;
+    }
+    .fullstack{
+        font-size: 22px;
+    }
+    .myimg2 img{
+        top: 30px;
+        height: 80%;
+        width: 80%;
+    }
+    .content{
+        top:30PX;
+    }
+    .education{
+        align-items: flex-start;
+    }
+    .heading{
+        font-size: 30px;
+        top: 30px;
+    }
+    .education{
+        height: 550px;
+    }
+    .box:hover{
+        box-shadow: 0px 0px 30px white;
+    }
+    .heading i{
+        font-size: 34px;
+    }
+    .about-edu{
+        font-size: 13px;
+        top: 40px;
+    }
+    .edu-lvl{
+        font-size: 16px;
+    }
+    .edu-name{
+        font-size: 12px;
+    }
+    .edu-year{
+        font-size: 14px;
+    }
+    .box{
+        top: 26px;
+        height: 100px;
+    }
+    .skills{
+        height: 550px;
+    }
+    .title-skill{
+        top: 50px;
+    }
+    .card{
+        height: 160px;
+        width: 130px;
+        font-size: 26px;
+    }
+    .javaimg{
+        height: 50px;
+        width: 60px;
+    }
+    .cards{
+        top: 40px;
+    }
+    .cards span{
+        transform: rotateY(calc(var(--i)*45deg))translateZ(250px);
+    }
+    .contact{
+        height: 360px;
+    }
+    .contact-img{
+        top: 40px;
+        max-width: 30%;
+        height: 200px;
+        width: 200px;
+        left: 80px;
+    }
+    .any{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 730px)
+{
+   .image{
+    width: 50%;
+   }
+}
+
+@media only screen and (max-width: 670px)
+{
+   .image{
+    width: 60%;
+   }
+}
+@media only screen and (max-width: 600px)
+{
+    .navbar a{
+        margin: 0px 8px;
+    }
+    .about{
+        height: 380px;
+    }
+ .content p{
+    font-size: 12px;
+ }
+  .hemanshu{
+    font-size: 18px;
+}
+.fullstack{
+      font-size: 18px;
+  }
+  .email{
+    font-size: 12px;
+  }
+  .education{
+    height: 470px;
+  }
+  .heading i{
+      font-size: 30px;
+  }
+  .heading{
+    font-size: 26px;
+  }
+  .about-edu{
+    font-size: 11px;
+  }
+  .edu-lvl{
+    font-size: 12px;
+  }
+  .box{
+    height: 80px;
+  }
+  .edu-img{
+    height: 70px;
+    width: 140px;
+  }
+  .title-skill{
+    font-size: 30px;
+  }
+  .skill-img{
+    width: 90px;
+    height: 60px;
+  }
+  .card{
+    top: 90px;
+    height: 150px;
+    width: 120px;
+  }
+}
+@media only screen and (max-width: 555px)
+{
+    .navbar a{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 555px)
+{
+  /* .logo img{
+    align-items: center;
+    height: 30px;
+    width: 60px;
+    left: 150px;
+  } */
+    .nav-list{
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .nav-list a{
+        margin-top: 15px;
+        display: hidden;
+        font-size: 20px;
+    }
+    .navbar{
+        flex-direction: column;
+        height: 250px;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav{
+        height: 50px;
+    }
+    .v-class{
+        display: none;
+    }
+    .myimg{
+    display: none;
+    }
+    .home{
+        height: 280px;
+    }
+    .info{
+        margin-top: 60px;
+        margin-right: 0px;
+        width: 100%;
+        align-items: center;
+        font-size: 18px;
+    }
+    .abt{
+        padding: 6px;
+    }
+    .title i{
+        position: relative;
+        top: 4px;
+        font-size: 26px;
+    }   
+    .title{
+        top: 30px;
+        margin-bottom: 0px;
+        font-size: 26px;
+    }
+    .about-in{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .myimg2{
+        top: 30px;
+        height: 150px;
+        width: 150px;
+    }
+    .content{
+        align-items: center;
+        max-width: 100%;
+        top: 54px;
+    }
+    .about{
+        justify-content: start;
+        height: 420px;
+        top: 0px;
+    }
+    .hemanshu{
+        font-size: 16px;
+    }
+    .fullstack{
+        font-size: 16px;
+    }
+    .content p{
+        position: relative;
+        left: 20px;
+        font-size: 11px;
+        width: 100%;
+    }
+    .email{
+        font-size: 12px;
+    } 
+    .education{
+        height: 380px;
+        justify-content: start;
+    }
+    .heading i{
+        font-size: 24px;
+    }
+    .heading{
+        margin-top: 0px;
+        font-size: 20px;
+    }
+    .about-edu{
+        font-size: 11px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .edu-lvl{
+        font-size: 10px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    .edu-name{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 8px;
+    }
+    .edu-year{
+        font-size: 12px;
+    }
+    .box{
+        left: 10px;
+        width: 330px;
+        height: 70px;
+    }
+    .edu-img{
+        width: 100px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    .skills{
+        height: 390px;
+    }
+    .title-skill{
+        top: 30px;
+        font-size: 26px;
+    }
+    .skill-img{
+        justify-content: start;
+        width: 70px;
+        height: 50px;
+    }
+    .card{
+        height: 120px;
+        width: 90px;
+    }
+    .card{
+        font-size: 16px;
+    }
+    .cards span{
+        transform: rotateY(calc(var(--i)*45deg))translateZ(150px);
+    }
+    .footer1{
+        overflow: hidden;
+    }
+    .footer3{
+        flex-direction: column;
+        max-width: 80%;
+        justify-content: center;
+    }
+    .portion p{
+        font-size: 14px;
+    }
+    .co-info{
+        font-size: 14px;
+    }
+    .portion a{
+        margin: 5px;
+    }
+    .any{
+        font-size: 20px;
+    }
+    .any p{
+        max-width: 100%;
+    }
+    .footer1{
+        height: 400px;
+    }
+    .portion{
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        margin-top: 8px;
+    }
+    .icon i{
+        font-size: 18px;
+        background-color: black;
+    }
+    footer p{
+        padding: 0px;
+        font-size: 2px;
+    }
+    .contact-box{
+        justify-content: start;
+    }
+    .contact-img{
+        width: 170px;
+        height: 170px;
+        left: 20px;
+        max-width: 120px;
+    }
+    .form{
+        margin: 10px 10px;
+    }
+    input{
+        width: 170px;
+        font-size: 16px;
+    }
+    textarea{
+        height: 60px;
+        font-size: 16px;
+    }
+    .submit-btn{
+        top: 40px;
+    }
+}
