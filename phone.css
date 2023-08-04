@@ -506,6 +506,12 @@
     }
     .icon i{
         font-size: 18px;
+        background-color: white;
+    }
+    .icon2 i{
+        font-size: 18px;
+    }
+    .icon2 a i{
         background-color: black;
     }
     footer p{

@@ -161,11 +161,16 @@ span{
 }
 .icon{
     display: flex;
+    position: relative;
     flex-direction: row;
     border-radius: 50% 50%;
 }
 .icon a i{
-    margin:20px 10px ;
+    touch-action:pan-x;
+    position: relative;
+    margin-right: 10px;
+    top: 15px;
+    padding: 10px;
     background-color: white;
     border-radius:50% ;
 }
